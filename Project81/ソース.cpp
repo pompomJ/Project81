@@ -1,12 +1,14 @@
 #include <stdio.h>
 
+//10個の整数の合計を求めるプログラム
+
 int main()
 {
 	int a, sum, i;
 
 	sum = 0;
 
-	printf("10�̐�������͂��Ă��������B\n");
+	printf("10個の整数を入力してください。\n");
 
 	for (i = 0; i < 10; i++)
 	{
